@@ -1,0 +1,95 @@
+html, body, header, img, nav, main, footer {
+    padding: 0;
+    margin: 0;
+    background-color: #2F3E46;
+}
+
+.header {
+    display: inline;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 120%;
+    float: right;
+}
+
+footer {
+    height: 20%;
+    background-color: #52796f;
+    padding-bottom: 10px;
+    color: #CAD2C5;
+    padding-top: 1%;
+    padding-left: 5px;
+    padding-bottom: 1%;
+}
+
+.footer {
+    display:inline;
+    margin-right: 30px;
+}
+
+ul {
+    margin:0;
+    padding:0;
+}
+
+header {
+    color: #CAD2C5;
+    background-color: #52796f;
+    padding-top: 50px;
+    padding-left: 20px;
+}
+
+#logo {
+    width: 5%;  
+}
+
+nav {
+    background-color: #52796f;
+    color: #CAD2C5;
+    padding: 10px 20px;
+    margin-top: 1px;
+    font-size: 120%;
+}
+
+main {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 50px;
+    padding-bottom: 10%;
+    background-color: #84A98C;
+    min-height: 59vh;
+    padding-top: 50px;
+}
+
+h1 {
+    padding: 0;
+    margin: 0;
+}
+
+.cover {
+    width: 10%;
+}
+
+#details {
+    width: 300px;
+    height: 100px;
+}
+
+.textform {
+    width: 300px;
+}
+
+label {
+    display: inline-block;
+    width: 70px;
+}
+
+
+input {
+    display: inline-block;
+}
+
+form {
+    width: 50px;
+    padding-bottom: 20px;
+}
