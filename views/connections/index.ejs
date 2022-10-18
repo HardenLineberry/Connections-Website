@@ -1,0 +1,14 @@
+<%- include('../partials/header.ejs')%>
+    <div class = "content">
+        <main>
+            <%if(stories.length) {%>
+                <p>Select a connection</p>
+               <%stories.forEach(connection => {%>
+                    <a href = "/connections/<%= connection.id%>"<p><%= connection.title%></p> </a>
+                <% });
+            } else {%>
+                <p>There are no stories to display</p>
+            <%}%>
+        </main>
+    </div>
+    <%- include('../partials/footer.ejs')%>
